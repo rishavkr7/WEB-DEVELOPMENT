@@ -7,8 +7,12 @@ body{
     padding: 0px;
 }
 
+h1{
+    text-align: center;
+}
+
 .tool-box{
-    background-color: black;
+    background-color: rgb(80, 151, 80);
     height: 5rem;
     display: flex;
     align-items: center;
@@ -22,40 +26,49 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
 }
 
 .action-btn{
     height: 3rem;
     width: 10rem;
-    background-color: white;
+    background-color: lightgrey;
     margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     
 }
 
-.pink{
-    background-color: pink;
-    height: 1rem;
-    width: 1.5rem;
-    margin-left: 1.5rem;
+.color{
+    /* background-color: red; */
+    height: 1.5rem;
+    width: 3rem;
 }
 
-.skyblue{
-    background-color: skyblue;
-    height: 1rem;
-    width: 1.5rem;
-    margin-left: 1.5rem;
+.lightpink{
+    background-color: lightpink;
 }
 
-.green{
-    background-color: green;
-    height: 1rem;
-    width: 1.5rem;
-    margin-left: 1.5rem;
+.lightblue{
+    background-color: lightskyblue;
+}
+
+.lightgreen{
+    background-color: lightgreen;
 }
 
 .black{
     background-color: black;
-    height: 1rem;
-    width: 1.5rem;
-    margin-left: 1.5rem;
 }
+
+.add-btn{
+    font-size: 1.5rem;
+}
+
+.remove-btn{
+    font-size: 1.5rem;
+}
+
+
+
