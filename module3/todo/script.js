@@ -8,9 +8,13 @@ inputTag.addEventListener('keydown',function(e){
 
      if(key=='Enter'){
          let value=inputTag.value;
-         console.log(value);
+         //console.log(value);
 
-         inputTag.value=" ";
+     if(value.length == 0){
+         return;
+     }
+
+         inputTag.value="";                        //UI INPUT UPDATE
 
     let liTag=document.createElement("li");
     
