@@ -18,11 +18,11 @@ input{
     font-size: 1.25rem;
     border-radius: 30px;
     background-color: #EEEBD3;
-    color:#255957;
+    color:black;
 }
 li{
     min-height: 2.5rem;
-    width: 24rem;
+    width: 40rem;
     display:flex;
     justify-content: space-between;
     border-radius: 10px;
@@ -36,5 +36,11 @@ li{
 
 .delete{
     color: red;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: underline;
 }
 
