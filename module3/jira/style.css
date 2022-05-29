@@ -1,67 +1,50 @@
 *{
     box-sizing: border-box;
 }
-
 body{
     margin: 0px;
     padding: 0px;
 }
-
-h1{
-    text-align: center;
-}
-
-.tool-box{
-    background-color: rgb(80, 151, 80);
+.toolbox-cont{
     height: 5rem;
+    background-color: black;
     display: flex;
     align-items: center;
 }
-
-.tool-box-priority-cont{
-    background-color: white;
+.toolbox-priority-cont{
     height: 3rem;
+    background-color: beige;
     width: 18rem;
     margin-left: 5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
 }
-
-.action-btn{
+.action-btn-cont{
+    background-color: beige;
     height: 3rem;
     width: 10rem;
-    background-color: lightgrey;
     margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
-
 .color{
-    /* background-color: red; */
     height: 1.5rem;
     width: 3rem;
 }
-
 .lightpink{
-    background-color: lightpink;
+    background-color:lightpink;
 }
-
-.lightblue{
-    background-color: lightskyblue;
+.blue{
+    background-color:lightblue
 }
-
-.lightgreen{
-    background-color: lightgreen;
+.green{
+    background-color:lightgreen;
 }
-
 .black{
-    background-color: black;
+    background-color:black
 }
-
 .add-btn{
     font-size: 1.5rem;
 }
@@ -70,5 +53,36 @@ h1{
     font-size: 1.5rem;
 }
 
+.modal-cont{
+    background-color: lightgrey;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 7rem;
+}
 
+.textarea-cont{
+    outline:none;
+    resize: none;
+    border: none;
+    background-color:red;
+    height: 100%;
+    width: 75%;
+    font-size: 2rem;
+    padding: 2rem;
+}
 
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+} 
